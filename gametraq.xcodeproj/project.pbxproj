@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9DDBCA2D80965900479BD0 /* gametraq Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A9DDBC92D80965900479BD0 /* gametraq Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A9DDC0D2D81E97C00479BD0 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DDC0C2D81E97C00479BD0 /* Intents.framework */; };
+		0A9DDC142D81E97C00479BD0 /* PedalGameIntents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A9DDC0A2D81E97C00479BD0 /* PedalGameIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9DDBCB2D80965900479BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9DDBBD2D80965900479BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9DDBC82D80965900479BD0;
+			remoteInfo = "gametraq Watch App";
+		};
+		0A9DDBDC2D80965B00479BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9DDBBD2D80965900479BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9DDBC82D80965900479BD0;
+			remoteInfo = "gametraq Watch App";
+		};
+		0A9DDBE62D80965B00479BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9DDBBD2D80965900479BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9DDBC82D80965900479BD0;
+			remoteInfo = "gametraq Watch App";
+		};
+		0A9DDC122D81E97C00479BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9DDBBD2D80965900479BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9DDC092D81E97C00479BD0;
+			remoteInfo = PedalGameIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A9DDBF22D80965B00479BD0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0A9DDBCA2D80965900479BD0 /* gametraq Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDC192D81E97C00479BD0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A9DDC142D81E97C00479BD0 /* PedalGameIntents.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A9DDBC32D80965900479BD0 /* gametraq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gametraq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9DDBC92D80965900479BD0 /* gametraq Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gametraq Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9DDBDB2D80965B00479BD0 /* gametraq Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gametraq Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9DDBE52D80965B00479BD0 /* gametraq Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gametraq Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9DDC0A2D81E97C00479BD0 /* PedalGameIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PedalGameIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9DDC0C2D81E97C00479BD0 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0A9DDC152D81E97C00479BD0 /* Exceptions for "PedalGameIntents" folder in "PedalGameIntents" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				IntentHandler.swift,
+			);
+			target = 0A9DDC092D81E97C00479BD0 /* PedalGameIntents */;
+		};
+		0A9DDC302D82027B00479BD0 /* Exceptions for "gametraq Watch App" folder in "PedalGameIntents" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PedalGameIntents.intentdefinition,
+			);
+			target = 0A9DDC092D81E97C00479BD0 /* PedalGameIntents */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0A9DDBCD2D80965900479BD0 /* gametraq Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0A9DDC302D82027B00479BD0 /* Exceptions for "gametraq Watch App" folder in "PedalGameIntents" target */,
+			);
+			path = "gametraq Watch App";
+			sourceTree = "<group>";
+		};
+		0A9DDBDE2D80965B00479BD0 /* gametraq Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gametraq Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0A9DDBE82D80965B00479BD0 /* gametraq Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gametraq Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		0A9DDC0E2D81E97C00479BD0 /* PedalGameIntents */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0A9DDC152D81E97C00479BD0 /* Exceptions for "PedalGameIntents" folder in "PedalGameIntents" target */,
+			);
+			path = PedalGameIntents;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9DDBC62D80965900479BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBD82D80965B00479BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBE22D80965B00479BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDC072D81E97C00479BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9DDC0D2D81E97C00479BD0 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9DDBBC2D80965900479BD0 = {
+			isa = PBXGroup;
+			children = (
+				0A9DDBCD2D80965900479BD0 /* gametraq Watch App */,
+				0A9DDBDE2D80965B00479BD0 /* gametraq Watch AppTests */,
+				0A9DDBE82D80965B00479BD0 /* gametraq Watch AppUITests */,
+				0A9DDC0E2D81E97C00479BD0 /* PedalGameIntents */,
+				0A9DDC0B2D81E97C00479BD0 /* Frameworks */,
+				0A9DDBC42D80965900479BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9DDBC42D80965900479BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9DDBC32D80965900479BD0 /* gametraq.app */,
+				0A9DDBC92D80965900479BD0 /* gametraq Watch App.app */,
+				0A9DDBDB2D80965B00479BD0 /* gametraq Watch AppTests.xctest */,
+				0A9DDBE52D80965B00479BD0 /* gametraq Watch AppUITests.xctest */,
+				0A9DDC0A2D81E97C00479BD0 /* PedalGameIntents.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9DDC0B2D81E97C00479BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9DDC0C2D81E97C00479BD0 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9DDBC22D80965900479BD0 /* gametraq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9DDBF32D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq" */;
+			buildPhases = (
+				0A9DDBC12D80965900479BD0 /* Resources */,
+				0A9DDBF22D80965B00479BD0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9DDBCC2D80965900479BD0 /* PBXTargetDependency */,
+			);
+			name = gametraq;
+			packageProductDependencies = (
+			);
+			productName = gametraq;
+			productReference = 0A9DDBC32D80965900479BD0 /* gametraq.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0A9DDBC82D80965900479BD0 /* gametraq Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9DDBEF2D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch App" */;
+			buildPhases = (
+				0A9DDBC52D80965900479BD0 /* Sources */,
+				0A9DDBC62D80965900479BD0 /* Frameworks */,
+				0A9DDBC72D80965900479BD0 /* Resources */,
+				0A9DDC192D81E97C00479BD0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9DDC132D81E97C00479BD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A9DDBCD2D80965900479BD0 /* gametraq Watch App */,
+			);
+			name = "gametraq Watch App";
+			packageProductDependencies = (
+			);
+			productName = "gametraq Watch App";
+			productReference = 0A9DDBC92D80965900479BD0 /* gametraq Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9DDBDA2D80965B00479BD0 /* gametraq Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9DDBF62D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch AppTests" */;
+			buildPhases = (
+				0A9DDBD72D80965B00479BD0 /* Sources */,
+				0A9DDBD82D80965B00479BD0 /* Frameworks */,
+				0A9DDBD92D80965B00479BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9DDBDD2D80965B00479BD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A9DDBDE2D80965B00479BD0 /* gametraq Watch AppTests */,
+			);
+			name = "gametraq Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "gametraq Watch AppTests";
+			productReference = 0A9DDBDB2D80965B00479BD0 /* gametraq Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A9DDBE42D80965B00479BD0 /* gametraq Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9DDBF92D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch AppUITests" */;
+			buildPhases = (
+				0A9DDBE12D80965B00479BD0 /* Sources */,
+				0A9DDBE22D80965B00479BD0 /* Frameworks */,
+				0A9DDBE32D80965B00479BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9DDBE72D80965B00479BD0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A9DDBE82D80965B00479BD0 /* gametraq Watch AppUITests */,
+			);
+			name = "gametraq Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "gametraq Watch AppUITests";
+			productReference = 0A9DDBE52D80965B00479BD0 /* gametraq Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0A9DDC092D81E97C00479BD0 /* PedalGameIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9DDC162D81E97C00479BD0 /* Build configuration list for PBXNativeTarget "PedalGameIntents" */;
+			buildPhases = (
+				0A9DDC062D81E97C00479BD0 /* Sources */,
+				0A9DDC072D81E97C00479BD0 /* Frameworks */,
+				0A9DDC082D81E97C00479BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0A9DDC0E2D81E97C00479BD0 /* PedalGameIntents */,
+			);
+			name = PedalGameIntents;
+			packageProductDependencies = (
+			);
+			productName = PedalGameIntents;
+			productReference = 0A9DDC0A2D81E97C00479BD0 /* PedalGameIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9DDBBD2D80965900479BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0A9DDBC22D80965900479BD0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0A9DDBC82D80965900479BD0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0A9DDBDA2D80965B00479BD0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0A9DDBC82D80965900479BD0;
+					};
+					0A9DDBE42D80965B00479BD0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0A9DDBC82D80965900479BD0;
+					};
+					0A9DDC092D81E97C00479BD0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 0A9DDBC02D80965900479BD0 /* Build configuration list for PBXProject "gametraq" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9DDBBC2D80965900479BD0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A9DDBC42D80965900479BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9DDBC22D80965900479BD0 /* gametraq */,
+				0A9DDBC82D80965900479BD0 /* gametraq Watch App */,
+				0A9DDBDA2D80965B00479BD0 /* gametraq Watch AppTests */,
+				0A9DDBE42D80965B00479BD0 /* gametraq Watch AppUITests */,
+				0A9DDC092D81E97C00479BD0 /* PedalGameIntents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9DDBC12D80965900479BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBC72D80965900479BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBD92D80965B00479BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBE32D80965B00479BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDC082D81E97C00479BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9DDBC52D80965900479BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBD72D80965B00479BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDBE12D80965B00479BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9DDC062D81E97C00479BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9DDBCC2D80965900479BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9DDBC82D80965900479BD0 /* gametraq Watch App */;
+			targetProxy = 0A9DDBCB2D80965900479BD0 /* PBXContainerItemProxy */;
+		};
+		0A9DDBDD2D80965B00479BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9DDBC82D80965900479BD0 /* gametraq Watch App */;
+			targetProxy = 0A9DDBDC2D80965B00479BD0 /* PBXContainerItemProxy */;
+		};
+		0A9DDBE72D80965B00479BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9DDBC82D80965900479BD0 /* gametraq Watch App */;
+			targetProxy = 0A9DDBE62D80965B00479BD0 /* PBXContainerItemProxy */;
+		};
+		0A9DDC132D81E97C00479BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9DDC092D81E97C00479BD0 /* PedalGameIntents */;
+			targetProxy = 0A9DDC122D81E97C00479BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9DDBED2D80965B00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A9DDBEE2D80965B00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A9DDBF02D80965B00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gametraq Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gametraq-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = gametraq;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0A9DDBF12D80965B00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "gametraq Watch App/gametraq Watch AppRelease.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gametraq Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gametraq-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = gametraq;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		0A9DDBF42D80965B00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = gametraq;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0A9DDBF52D80965B00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = gametraq;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9DDBF72D80965B00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gametraq.gametraq-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gametraq Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gametraq Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0A9DDBF82D80965B00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gametraq.gametraq-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gametraq Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gametraq Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		0A9DDBFA2D80965B00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gametraq.gametraq-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "gametraq Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0A9DDBFB2D80965B00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gametraq.gametraq-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "gametraq Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		0A9DDC172D81E97C00479BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PedalGameIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PedalGameIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq.watchkitapp.PedalGameIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0A9DDC182D81E97C00479BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PedalGameIntents/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PedalGameIntents;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametraq.gametraq.watchkitapp.PedalGameIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9DDBC02D80965900479BD0 /* Build configuration list for PBXProject "gametraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDBED2D80965B00479BD0 /* Debug */,
+				0A9DDBEE2D80965B00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9DDBEF2D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDBF02D80965B00479BD0 /* Debug */,
+				0A9DDBF12D80965B00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9DDBF32D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDBF42D80965B00479BD0 /* Debug */,
+				0A9DDBF52D80965B00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9DDBF62D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDBF72D80965B00479BD0 /* Debug */,
+				0A9DDBF82D80965B00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9DDBF92D80965B00479BD0 /* Build configuration list for PBXNativeTarget "gametraq Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDBFA2D80965B00479BD0 /* Debug */,
+				0A9DDBFB2D80965B00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9DDC162D81E97C00479BD0 /* Build configuration list for PBXNativeTarget "PedalGameIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9DDC172D81E97C00479BD0 /* Debug */,
+				0A9DDC182D81E97C00479BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9DDBBD2D80965900479BD0 /* Project object */;
+}
