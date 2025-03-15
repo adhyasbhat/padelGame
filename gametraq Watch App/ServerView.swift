@@ -38,7 +38,7 @@ struct ServerView: View{
                     }
                 }
                 .padding()
-                NavigationLink(destination: ContentView(), isActive: $navigateToScoreView) {
+                NavigationLink(destination: ScoreView(), isActive: $navigateToScoreView) {
                                    Button("Start") {
                                        navigateToScoreView = true
                                    }
