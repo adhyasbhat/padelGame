@@ -5,42 +5,48 @@ struct SummaryView: View {
     let selectedSet: Int
     
     var body: some View {
-        VStack {
-            HStack {
-                Image("icon")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                Text("Peddle")
-                    .font(.headline)
-                    .foregroundStyle(.black)
+        NavigationStack {
+            ZStack {
+                Color.black.ignoresSafeArea()
+                
+                VStack(spacing: 10) {
+                    Spacer()
+                    
+                    VStack(spacing: 20) {
+                        Text("Pedal")
+                            .font(.system(size: 24))
+                            .foregroundColor(.white)
+                            .bold()
+                        HStack{
+                            Text("\(gameFormat)")
+                                .font(.headline)
+                                .foregroundColor(.gray)
+                            
+                            Text(", for \(selectedSet) Sets")
+                                .font(.headline)
+                                .foregroundColor(.gray)
+                        }
+                        
+                    }
+                    
+                    Spacer()
+                    
+                    NavigationLink(destination: ServerView()) {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10)
+                                .fill(Color(red: 228/255, green: 0/255, blue: 132/255))
+                                .frame(width: 50, height: 50)
+                            
+                            Image(systemName: "play.fill")
+                                .font(.system(size: 30))
+                                .foregroundColor(.black)
+                        }
+                    }
+                    .buttonStyle(PlainButtonStyle())
+                    .padding(.bottom, 20)
+                }
             }
-            
-            Text("\(gameFormat)")
-                .font(.headline)
-                .foregroundColor(.black)
-                .padding(.top, 10)
-            
-            Text("Playing \(selectedSet) sets per game")
-                .font(.headline)
-                .foregroundColor(.black)
-                .padding(.top, 10)
-                .padding(.bottom, 30) // Add bottom padding here to create a gap
-            
-            Spacer()
-            
-            NavigationLink(destination: ServerView()) {
-                Image("play")
-                    .resizable()
-                    .frame(width: 55, height: 55)
-                    .padding()
-                    .background(Color.black)
-                    .cornerRadius(200)
-            }
-            .padding(.horizontal)
-            .padding(.bottom, 20)
+            .navigationBarHidden(true)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.white.ignoresSafeArea())
     }
 }
-
