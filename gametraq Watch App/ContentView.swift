@@ -7,6 +7,7 @@ struct SplashScreenView: View {
     
     var body: some View {
         ZStack {
+            
             if isActive {
                 ContentView()
             } else {

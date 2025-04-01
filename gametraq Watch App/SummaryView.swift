@@ -35,7 +35,7 @@ struct SummaryView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10)
                                 .fill(Color(red: 228/255, green: 0/255, blue: 132/255))
-                                .frame(width: 50, height: 50)
+                                .frame(width: 60, height: 60)
                             
                             Image(systemName: "play.fill")
                                 .font(.system(size: 30))

@@ -45,6 +45,7 @@ struct ServerView: View{
                                    }.buttonStyle(PlainButtonStyle())
                                    .foregroundColor(.white)
                                    .padding()
+                                   .frame(width: 200, height: 52)
                                    .background(Color(red: 228/255, green: 0/255, blue: 132/255))
                                    .cornerRadius(10)
                                }

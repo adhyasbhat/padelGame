@@ -4,6 +4,7 @@ struct GameSettingsView: View {
     @State private var gameFormat = "Singles"
     let gameFormats = ["Singles", "Doubles"]
     
+    
     @State private var selectedSet: Int = 3
     let setOptions = [3, 5, 7, 9]
     
@@ -12,6 +13,9 @@ struct GameSettingsView: View {
     
     @State private var navigateToNextScreen = false
     
+    @State private var gameType = "Traditional"
+    let gameTypes: [String] = ["Traditional", "Golden Point","Tie-Breaker","Super Tie-Breaker"]
+    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -19,6 +23,8 @@ struct GameSettingsView: View {
                     MatchSettingView(gameFormat: $gameFormat, gameFormats: gameFormats)
                     SetsPerGameView(selectedSet: $selectedSet, setOptions: setOptions)
                     SetTimeView(selectedMinutes: $selectedMinutes, selectedSeconds: $selectedSeconds)
+                    SetGameType(selectedGameType: $gameType, gameTypeOptions: gameTypes)
+
                     
                     NavigationLink(destination: SummaryView(gameFormat: gameFormat, selectedSet: selectedSet), isActive: $navigateToNextScreen) {
                         Button(action: {
@@ -36,6 +42,7 @@ struct GameSettingsView: View {
                     .padding(.horizontal)
                     .padding(.bottom, 20)
                 }
+                
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black.ignoresSafeArea())
@@ -92,15 +99,39 @@ struct SetsPerGameView: View {
                             )
                             .clipShape(Circle()) // Ensure the button is perfectly circular
                     }
-                    .buttonStyle(PlainButtonStyle()) 
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
         }
     }
 }
 
-
-
+struct SetGameType: View {
+    @Binding var selectedGameType: String
+    let gameTypeOptions: [String]
+    
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("Game Type")
+                .font(.headline)
+                .foregroundColor(.white)
+            
+            Picker("", selection: $selectedGameType) {
+                ForEach(gameTypeOptions, id: \.self) { type in
+                    Text(type).tag(type)
+                }
+            }
+            .foregroundStyle(.white)
+            .pickerStyle(WheelPickerStyle())
+            .frame(maxWidth: .infinity)
+            .frame(height: 75)
+            .background(Color.clear)
+            .cornerRadius(10)
+            .padding(.horizontal)
+            .padding(.top, -15)
+        }
+    }
+}
 
 struct SetTimeView: View {
     @Binding var selectedMinutes: Int
@@ -139,4 +170,3 @@ struct SetTimeView: View {
         }
     }
 }
-
